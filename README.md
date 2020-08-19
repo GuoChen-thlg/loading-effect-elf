@@ -7,7 +7,7 @@ npm i loading-effect-elf
 ```
 
 初试发布 npm
-|参数|ytpe|effect |
+|options|type|effect |
 | --- | ---- | ----- |
 |type| string | 展示类型|
 |name| string | 名字|
