@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <script src="../src/loading-effect-elf.js"></script>
+    <link rel="stylesheet" href="../src/style.css">
+</head>
+
+<body>
+    <button onclick="start()">loading...</button>
+    <button onclick="stop()">stop</button>
+    <script>
+        function start() {
+            Elf.start({
+                type:'conent-indicator'
+            })
+        }
+        function stop() {
+            Elf.stop()
+        }
+    </script>
+</body>
+
+</html>

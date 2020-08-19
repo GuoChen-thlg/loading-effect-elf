@@ -1,0 +1,19 @@
+{
+  "name": "loading-effect-elf",
+  "version": "0.1.0",
+  "description": "An interesting loading effect",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "天火流光 <gc.thlg@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "loading",
+    "web"
+  ],
+  "examples": "",
+  "bugs": {
+    "email": "gc.thlg@gmail.com"
+  }
+}

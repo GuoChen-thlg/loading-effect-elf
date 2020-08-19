@@ -1,0 +1,72 @@
+.elf-coat {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+.elf-coat .progress-bar {
+	width: 0%;
+	height: 3px;
+	background-color: aqua;
+	animation: loading 5s forwards;
+}
+.elf-coat > .icon-coat {
+	position: absolute;
+	top: 6px;
+	right: 3px;
+}
+
+.elf-coat .masking {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.masking .icon-rotate {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 25px;
+	height: 25px;
+}
+.icon {
+	width: 10px;
+	height: 10px;
+}
+.rotate {
+	animation: rotate 0.4s linear infinite;
+}
+.icon-rotate {
+	border-radius: 50%;
+	border: 2px solid aqua;
+	border-top-color: #fff;
+}
+@keyframes rotate {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes loading {
+	from {
+		width: 0%;
+	}
+	to {
+		width: 95%;
+	}
+}
+@keyframes loading-stop {
+	from {
+		width: 95%;
+	}
+	to {
+		width: 100%;
+	}
+}
