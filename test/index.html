@@ -5,21 +5,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>test</title>
-    <script src="../src/loading-effect-elf.js"></script>
+    <script src="../built/loading-effect-elf.js"></script>
+    <!-- <script src="../built/index.js"></script> -->
     <link rel="stylesheet" href="../src/style.css">
 </head>
 
 <body>
     <button onclick="start()">loading...</button>
     <button onclick="stop()">stop</button>
+    <button onclick="start1()">loading...</button>
+    <button onclick="stop1()">stop</button>
+
     <script>
         function start() {
             Elf.start({
-                type:'conent-indicator'
+                name: 't',
+                icon_size:'30px'
             })
         }
         function stop() {
-            Elf.stop()
+            Elf.stop({
+                name: 't'
+            })
+        }
+        function start1() {
+            Elf.start({
+                type: 'mask_loaded',
+                name: 'h'
+            })
+        }
+        function stop1() {
+            Elf.stop({
+                name: 'h'
+            })
         }
     </script>
 </body>

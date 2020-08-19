@@ -1,19 +1,31 @@
 {
   "name": "loading-effect-elf",
-  "version": "0.1.0",
+  "version": "0.1.11",
   "description": "An interesting loading effect",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "watch_ts": "tsc -w"
   },
   "author": "天火流光 <gc.thlg@gmail.com>",
+  "repositories": {
+    "type": "git",
+    "url": "git+https://github.com/GuoChen-thlg/loading-effect-elf.git"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuoChen-thlg/loading-effect-elf.git"
+  },
   "license": "MIT",
   "keywords": [
-    "loading",
-    "web"
+    "loading"
   ],
-  "examples": "",
   "bugs": {
     "email": "gc.thlg@gmail.com"
+  },
+  "homepage": "https://github.com/GuoChen-thlg/loading-effect-elf#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^3.9.7"
   }
 }

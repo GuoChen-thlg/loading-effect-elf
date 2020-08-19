@@ -13,7 +13,8 @@
 .elf-coat > .icon-coat {
 	position: absolute;
 	top: 6px;
-	right: 3px;
+	right: 6px;
+	overflow: hidden;
 }
 
 .elf-coat .masking {
